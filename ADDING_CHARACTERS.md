@@ -21,7 +21,7 @@ Put two JPEGs in `images/characters/`, named after the character's `img` value (
 | `<slug>-thumb.jpg` | 202 × 300 (same crop) | JPEG q82, progressive |
 
 Crop to 2:3 first, then resize both from that crop. Most portraits are full-length. For revealing or form-fitting art, crop
-to head and shoulders with the face centred (as with `park-ji-yeon`). Example (Pillow):
+to head and shoulders with the face centred. Example (Pillow):
 
 ```python
 from PIL import Image
