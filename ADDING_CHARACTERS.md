@@ -45,7 +45,7 @@ Copy an existing block (for example `park-ji-yeon`) and fill in every field:
 - `name`, `fullName`, `tagline`, `aliases[]`, `titles[]`, `race`, `age` (must clearly be adult), `height`, `build`,
   `hair`, `eyes`, `origin`, `affiliation`, `role`, `status`, `caption`
 - `sagas[]` and `firstSaga`: chronicle ids, which must exist in `sagas`
-- `tier`: a key of `tiers` (`t1` Beyond Concept … `t6` Champion, `t7` Luminary for non-magical worlds). Add a new tier
+- `tier`: a key of `tiers` (`t1` Beyond Concept, `t1b` Transcendent, `t2` Primordial … `t6` Champion, `t7` Luminary for non-magical worlds). Add a new tier
   if none fits; the ranking page lists tiers automatically.
 - `stats`: `{off,def,spd,mys,utl,rea}`, each 1–10. Overall score = their average.
 - `note` (optional box shown at the top), `intro`
