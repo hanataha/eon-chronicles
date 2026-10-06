@@ -2,6 +2,21 @@
 'use strict';
 var D=window.EON, $=function(s,r){return (r||document).querySelector(s)}, $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
 var main=$('#main');
+/* ---------- counts: everything below scales with the number of characters / chronicles ---------- */
+var WORDS=['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'];
+function word(n){return WORDS[n]||String(n)}
+function cap(t){return t.charAt(0).toUpperCase()+t.slice(1)}
+var NC=D.chars.length,NS=D.sagas.length,NW=D.sagas.map(function(s){return s.world}).filter(function(v,i,a){return a.indexOf(v)===i}).length;
+function joinList(a){return a.length<2?a.join(''):a.slice(0,-1).join(', ')+' and '+a[a.length-1]}
+var TOK={'{n}':word(NC),'{N}':cap(word(NC)),'{w}':word(NW),'{W}':cap(word(NW)),'{s}':word(NS),'{S}':cap(word(NS)),
+  '{LIST}':joinList(D.chars.map(function(c){return '**'+c.name+'**'+(c.epithet?' ('+c.epithet+')':'')}))};
+function fill(v){
+  if(typeof v==='string')return v.replace(/\{(n|N|w|W|s|S|LIST)\}/g,function(m){return TOK[m]});
+  if(Array.isArray(v)){for(var i=0;i<v.length;i++)v[i]=fill(v[i]);return v}
+  if(v&&typeof v==='object'){for(var k in v)if(Object.prototype.hasOwnProperty.call(v,k))v[k]=fill(v[k]);return v}
+  return v;
+}
+fill(D.meta);fill(D.world);fill(D.tiers);fill(D.sagas);fill(D.places);fill(D.chars);
 var BY={};D.chars.forEach(function(c){BY[c.slug]=c});
 var SG={};D.sagas.forEach(function(s){SG[s.id]=s});
 var PL={};D.places.forEach(function(p){PL[p.id]=p});
@@ -37,7 +52,7 @@ function filterGrid(host,state){
   $('.grid',host).innerHTML=list.length?list.map(card).join(''):'<div class="empty" style="grid-column:1/-1">No character matches that filter. Try another one.</div>';
 }
 function gridBlock(){
-  var h='<div class="gridwrap"><div class="filters"><input class="fq" type="search" placeholder="Filter the seven by name, role, power…" aria-label="Filter characters"><div class="chips">'+FILTERS.map(function(f,i){return '<button class="chip'+(i?'':' on')+'" data-f="'+f[0]+'">'+f[1]+'</button>'}).join('')+'</div></div><div class="grid"></div></div>';
+  var h='<div class="gridwrap"><div class="filters"><input class="fq" type="search" placeholder="Filter the '+word(NC)+' by name, role, power…" aria-label="Filter characters"><div class="chips">'+FILTERS.map(function(f,i){return '<button class="chip'+(i?'':' on')+'" data-f="'+f[0]+'">'+f[1]+'</button>'}).join('')+'</div></div><div class="grid"></div></div>';
   return h;
 }
 function wireGrid(){
@@ -48,15 +63,15 @@ function wireGrid(){
 }
 function vHome(){
   var top=D.chars.slice().sort(function(a,b){return avg(b)-avg(a)});
-  main.innerHTML='<section class="hero"><div class="eyebrow">An original fantasy cycle</div><h1>The Eon Chronicles</h1><p class="lead">'+esc(D.meta.tagline)+'</p><div class="btns"><a class="btn" href="#/characters">Meet the Seven</a><a class="btn alt" href="#/world">Enter the World</a><a class="btn alt" href="#/ranking">Power Ranking</a></div></section>'+
-  '<section class="sec"><h2>The Seven</h2>'+gridBlock()+'</section>'+
+  main.innerHTML='<section class="hero"><div class="eyebrow">An original fantasy cycle</div><h1>The Eon Chronicles</h1><p class="lead">'+esc(D.meta.tagline)+'</p><div class="btns"><a class="btn" href="#/characters">Meet the '+cap(word(NC))+'</a><a class="btn alt" href="#/world">Enter the World</a><a class="btn alt" href="#/ranking">Power Ranking</a></div></section>'+
+  '<section class="sec"><h2>The '+cap(word(NC))+'</h2>'+gridBlock()+'</section>'+
   '<section class="sec"><h2>The World in Brief</h2><div class="panel prose">'+md(D.world.short)+'<p><a class="btn alt" href="#/world">Read the full world guide →</a></p></div></section>'+
-  '<section class="sec"><h2>Chronicles</h2><div class="cols c3">'+D.sagas.slice(0,6).map(function(s){return '<a class="panel tile" href="#/saga/'+s.id+'" style="text-decoration:none"><div class="eyebrow" style="margin:0 0 4px">Chronicle '+s.num+'</div><h3>'+esc(s.title)+'</h3><p>'+esc(s.blurb)+'</p></a>'}).join('')+'</div></section>'+
+  '<section class="sec"><h2>Chronicles</h2><div class="cols c3">'+D.sagas.map(function(s){return '<a class="panel tile" href="#/saga/'+s.id+'" style="text-decoration:none"><div class="eyebrow" style="margin:0 0 4px">Chronicle '+s.num+'</div><h3>'+esc(s.title)+'</h3><p>'+esc(s.blurb)+'</p></a>'}).join('')+'</div></section>'+
   '<section class="sec"><h2>Strongest Right Now</h2>'+top.slice(0,3).map(function(c,i){return rankRow(c,i+1)}).join('')+'<p><a href="#/ranking">See the full ranking and comparison table →</a></p></section>';
   wireGrid();
 }
 function vCharacters(){
-  main.innerHTML='<div class="crumbs"><a href="#/">Home</a> › Characters</div><h1>Characters</h1><p class="muted">Seven sovereign women across six worlds, each bound to the Dreamer called Eon. Tap a portrait to open her page.</p>'+gridBlock();
+  main.innerHTML='<div class="crumbs"><a href="#/">Home</a> › Characters</div><h1>Characters</h1><p class="muted">'+cap(word(NC))+' remarkable women across '+word(NW)+' worlds, each bound to the Dreamer called Eon. Tap a portrait to open her page.</p>'+gridBlock();
   wireGrid();
 }
 function rankRow(c,n){
@@ -78,7 +93,7 @@ function powerHTML(p,i,cid){
 }
 function vChar(slug){
   var c=BY[slug];if(!c)return v404();
-  var idx=D.chars.indexOf(c),prev=D.chars[(idx+6)%7],next=D.chars[(idx+1)%7];
+  var idx=D.chars.indexOf(c),prev=D.chars[(idx+NC-1)%NC],next=D.chars[(idx+1)%NC];
   var secs=[['bio','Biography'],['appearance','Appearance'],['personality','Personality'],['powers','Powers & Abilities'],['relationships','Relationships'],['trivia','Trivia & Quotes'],['gallery','Gallery'],['compare','Power comparison']];
   var h='<div class="crumbs"><a href="#/">Home</a> › <a href="#/characters">Characters</a> › '+esc(c.short)+'</div><div class="art" style="--accent:'+c.color+'">';
   h+='<div class="art-h"><h1>'+esc(c.name)+'</h1><div class="sub">'+esc(c.tagline)+'</div></div>'+infobox(c);
@@ -156,7 +171,7 @@ function placeCard(p,full){
 var PF='all';
 function vPlaces(){
   var regs=['all'].concat(D.places.map(function(p){return p.region}).filter(function(v,i,a){return a.indexOf(v)===i}));
-  var h='<div class="crumbs"><a href="#/">Home</a> › Places</div><h1>Places</h1><p class="muted">Locations that matter to the seven, grouped by world.</p><div class="chips" style="margin-bottom:14px">'+regs.map(function(r){return '<button class="chip'+(r===PF?' on':'')+'" data-p="'+esc(r)+'">'+(r==='all'?'All':esc(r))+'</button>'}).join('')+'</div><div class="cols c2" id="plg"></div>';
+  var h='<div class="crumbs"><a href="#/">Home</a> › Places</div><h1>Places</h1><p class="muted">Locations that matter to the '+word(NC)+', grouped by world.</p><div class="chips" style="margin-bottom:14px">'+regs.map(function(r){return '<button class="chip'+(r===PF?' on':'')+'" data-p="'+esc(r)+'">'+(r==='all'?'All':esc(r))+'</button>'}).join('')+'</div><div class="cols c2" id="plg"></div>';
   main.innerHTML=h;
   function draw(){$('#plg').innerHTML=D.places.filter(function(p){return PF==='all'||p.region===PF}).map(function(p){return placeCard(p,false)}).join('')}
   draw();
@@ -199,6 +214,7 @@ function route(){
   $('#nav').classList.remove('open');$('#burger').setAttribute('aria-expanded','false');
   var key={c:'characters',characters:'characters',home:'home',world:'world',sagas:'sagas',saga:'sagas',places:'places',place:'places',ranking:'ranking'}[r]||'';
   $$('#nav a').forEach(function(a){a.classList.toggle('on',a.dataset.r===key)});
+  if(r!=='search')$('#sq').value='';
   try{
     if(r==='home')vHome();else if(r==='characters')vCharacters();else if(r==='c')vChar(p[1]);else if(r==='world')vWorld();else if(r==='sagas')vSagas();else if(r==='saga')vSaga(p[1]);
     else if(r==='places')vPlaces();else if(r==='place')vPlace(p[1]);else if(r==='ranking')vRanking();else if(r==='search')vSearch(p.slice(1).join('/'));else v404();
