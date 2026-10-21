@@ -72,6 +72,22 @@ sagas:[
  blurb:"Reborn as the first son of a great martial clan, Eon is betrothed as a child to the quiet eldest daughter of the river clan. A secret thread of qi, a vow of strength, and a bride who will let nothing come between them.",
  summary:"**Eon** is reborn in a second murim world as **Baek Eon**, first son of the main line of the Baek clan of Mount Cheongryong. He decides not to stand out. As small children he is promised in marriage to **Han Seo-yeon**, eldest daughter of the Han river clan. They meet only at formal visits, but Eon quietly opens her meridians and gives her a thread of qi that lets them talk across any distance, and she grows from a reserved clan daughter into his closest confidante. Strength becomes her path. As adults they marry at eighteen, with Seo-yeon herself demanding the wedding. Afterwards she rises to the transcendent realm, becomes a true immortal, and builds a private world, the Heavenly Garden, for the two of them.",
  beats:["Eon is reborn as first son of the Baek clan and chooses to stay ordinary.","A childhood betrothal to the Han clan’s eldest daughter.","First meeting at the White Crane Rest Stop: a very formal little girl.","A clan visit and a pavilion night: she talks because she wants to.","‘Do you believe me?’ He opens her meridians and gives her the thread.","Daily messages, hidden gifts under a cracked marker stone.","A parting, and her vow to become strong enough that no road matters.","Master realm and a style of her own.","She refuses another match and asks the patriarch for her wedding.","The wedding: a public warning to every rival.","A technique made only for her: the transcendent realm.","True immortality, and the Heavenly Garden."]}
+,{id:"admin",num:"XVI",title:"The Administrator's Vow",world:"Modern Tokyo, then a cultivation world of nine levels",chars:["ayaka-shiroyama"],
+ blurb:"Eon's devoted wife from the old Shiroyama line gains an Administrator's authority over reality, and the two of them step into a cultivation world that has no idea what just arrived.",
+ summary:"**Ayaka Shiroyama** begins as **Eon**'s wife in modern Tokyo, heir to the old Shiroyama line. When she awakens divine **Administrator** authority, she starts to read reality as code she can edit. Together they cross into a modern cultivation world whose power runs from Level 0 to 9. They claim the abandoned Shattered Celestial Peak, a lethal Grade-9 Heavenly Realm, and tame it on the first day. Ayaka keeps their home peaceful with frightening calm: a silence decree that ancient cultivators obey, threats removed before they arrive, and an arrogant sect patriarch held in a white void until he apologises. Later worlds only confirm it: wherever they go, she declares herself a constant of its code.",
+ beats:["Tokyo: Eon and Ayaka, husband and wife of the Shiroyama line.","Ayaka awakens Administrator authority: reality is a programmable substrate.","Crossing into a cultivation world of Levels 0–9.","The Shattered Celestial Peak, tamed on the first day.","A silence decree across the region.","A Level 6 Flying Lightning Ape removed before it arrives.","A sect patriarch held in a white void with one command.","New worlds, the same constant: Ayaka at Eon's side."]}
+,{id:"terra",num:"XVII",title:"The Silent Owner of Terra Nova",world:"Terra Nova (a world of stats and levels)",chars:["anuvel"],
+ blurb:"Eon is reborn into a game-like world of stats and levels, and quietly takes the administrator's seat from the goddess who built it. She becomes the most devoted assistant a quiet man ever had.",
+ summary:"**Terra Nova** is a world of levels, stats and leylines, created and run by the goddess **Anuvel**. When **Eon** is reborn into it, he reaches the root of its system and rewrites its core parameters, and the creator finds herself serving a power greater than her own. Anuvel becomes his SysAdmin and attendant. She keeps the weather and mana leylines in order, filters anomalies, and locates anyone in the datascape in an instant, while Eon lives quietly at an inn and watches the world go by. Among those who join his circle is **Morgantha**, the strongest witch of the Murkwell Swamp.",
+ beats:["Terra Nova: a world of levels and stats, built by Anuvel.","Eon is reborn into it.","He reaches the system root and rewrites its parameters.","The creator becomes the SysAdmin, with every stat set to 99,999.","A quiet inn, and a goddess running the world in the background.","Instant threat reports, such as the one on Lyra Silvershadow.","The Swamp Witch Morgantha loses a wager and joins the circle."]}
+,{id:"rift",num:"XVIII",title:"The Outsider of Seoul",world:"Modern Seoul and the Divine Realm",chars:["astraea"],
+ blurb:"Rifts tear open over Seoul, and a goddess's voice keeps shouting for the hidden Outsider. Eventually Eon gets tired of hiding and walks up into her palace.",
+ summary:"**Eon** lives quietly in modern **Seoul**, hiding power far beyond anything in the world. Dimensional rifts begin tearing open over the city, each one carrying the same command: “YOU CANNOT HIDE, OUTSIDER.” Behind them is **Astraea**, Goddess of Order and ruler of the Divine Realm, the strongest goddess of the cosmos. Eon closes the rifts, walks into her celestial palace, and the world bends. Astraea, outmatched for the first time, chooses his side and joins his household. Later something older wakes in the void: **Nyxara**, the Primordial Weave who created the cosmos, and even she cannot touch him.",
+ beats:["A hidden power living quietly in Seoul.","Rifts over the city: ‘YOU CANNOT HIDE, OUTSIDER.’","Eon closes the rifts.","He walks into the Divine Realm, and the world bends.","Astraea's shattered halo and a golden choker of her own choosing.","‘I used to fight fate. Now, I am fate.’","Nyxara wakes in the void, older than the rifts.","The creator's multiverse-scale attack changes nothing."]}
+,{id:"infinite",num:"XIX",title:"The Infinite Journey",world:"A thousand worlds, up to the Primordial Throne",chars:["aeterna"],
+ blurb:"Eon the Unlimited walks from world to world, past goddesses and immortal empresses, until he reaches the throne at the origin of everything, and gives its nameless occupant a name.",
+ summary:"**Eon the Unlimited** sets out on an infinite journey across a thousand worlds. He is greeted by **Celestia**, Highest Goddess of those worlds, and passes through the Supreme Immortal Realm, the Jade Phoenix Sect and the Elven Realms. At the very end of the road stands the **Primordial Throne**, and on it the Creator: a being so complete she never needed a name, because she was everything. She meets him with serene detachment and calls him an anomaly. Eon outmatches her, gives her the name **Aeterna**, and the Creator joins the household of the one being she did not create.",
+ beats:["Eon the Unlimited sets out across a thousand worlds.","Celestia fills the sky to greet him.","The Supreme Immortal Realm, the Jade Phoenix Sect, the Elven Realms.","The last threshold: the Primordial Throne.","‘You are an anomaly.’","A cry that shakes the multiverse.","The nameless Creator is given a name: Aeterna.","‘I made existence… and yet, they are what existence aspires to be.’"]}
 ],
 places:[
 {id:"willow-bend",name:"Willow Bend Village",region:"Murim",type:"Village",chars:["yeonhwa"],sagas:["moon"],desc:"A small farming village on a slow river where Eon grew up as an orphan, looked after by Granny Wei and Old Man Jian. When bandits raid the village, it is here that Yeonhwa first appears out of the dusk.\n\nThe village is told that Eon left or fell, and it keeps its quiet life afterwards; he returns in later years to see it again."},
@@ -1183,4 +1199,158 @@ relationships:[
 trivia:["She wears the ribbon with the date woven into it every day.","As a child she asked Eon’s opinion on everything, right down to which cup to drink from.","She prefers the short staff to the sword.","After her ascension she no longer needs a horse."],
 quotes:[["Yes.","When Eon asks whether she believes him"],["I am answering because I want to. That has not happened before.","The pavilion night"],["I will become strong enough that the road does not matter.","Her vow after a parting"],["He is my husband. Do not test it.","At her wedding"]]
 });
-(function(){var order=["lirael-kanto","elizaveta","celestine-varelis","su-eon-lingwei","yeonhwa","yue-qingwu","xuanye","park-ji-yeon","hamazaki-risa","nova-astra","nakamura-hana","arisugawa-yu","saori-luminelle","aoi-sakuraba","rin-sakuraba","yuki-yukino","asuka-lyney","han-seo-yeon"];window.EON.chars=order.map(function(s){return EONC.filter(function(c){return c.slug===s})[0]}).concat(EONC.filter(function(c){return order.indexOf(c.slug)<0}));})();
+EONC.push({
+slug:"aeterna",img:"aeterna",short:"Aeterna",color:"#d8b45a",tags:["divine","eon"],epithet:"the Creator on the Primordial Throne",
+images:[{img:"aeterna",caption:"Aeterna in a flowing white-and-gold gown, crowned with a radiant golden halo, light pouring from behind her."},{img:"aeterna-2",caption:"Aeterna at full length in her white-and-gold gown, long golden hair falling to her feet beneath her halo."}],
+name:"Aeterna",fullName:"Aeterna, the Creator Goddess",
+tagline:"She was the origin of everything and never needed a name, until the one being she did not create reached her throne and gave her one.",
+aliases:["The Creator","The First Breath of Existence","The Nameless One"],titles:["Creator Goddess","Origin of All Things","Occupant of the Primordial Throne","Member of Eon’s household"],
+race:"Primordial creator deity",age:"An adult woman in form; older than time itself",height:"Tall and statuesque",build:"Graceful and regal, radiating calm power",
+hair:"Very long, wavy golden hair",eyes:"Golden",
+origin:"Beyond time and worlds, at the Primordial Throne",affiliation:"Eon’s household",role:"The Creator of reality; the last and greatest figure of Eon’s infinite journey",
+sagas:["infinite"],firstSaga:"infinite",status:"Alive; named by Eon and at his side",
+caption:"Aeterna, crowned with a golden halo, in a white-and-gold gown. Swipe or use the arrows for her full-length portrait.",
+tier:"t1",stats:{off:10,def:10,spd:9,mys:10,utl:10,rea:10},
+note:"**Placement.** Aeterna is the literal architect of reality and sits at the end of a road that runs through a thousand worlds and their goddesses. Authorship of existence itself puts her in **Beyond Concept**.",
+intro:"**Aeterna** is the Creator: the origin of all things, who sat on the **Primordial Throne** beyond time and every world. She had no name, because she was everything. At the end of his [[saga:infinite|infinite journey]], **Eon the Unlimited** reached her throne, outmatched her, and named her. She has stood at his side ever since.",
+bio:[
+{h:"Before everything",t:"Aeterna existed before time and beyond every world, the architect of reality and the first breath of existence. She presided over all of creation from the Primordial Throne and never needed a name."},
+{h:"The anomaly",t:"Eon’s journey carried him through a thousand worlds, past **Celestia**, the Supreme Immortal Realm and the Elven Realms, to the last threshold. Aeterna met him with neither malice nor interest, merely acknowledgment, and called him an anomaly: the one thing in existence she had not made."},
+{h:"A name",t:"Their contest ended with a cry that shook the multiverse. The Creator lost her absolute authority for the first time, and Eon gave her a name, **Aeterna**. She joined his household."},
+{h:"Wistful creator",t:"Living among the women around Eon, the serene Creator grows quietly humbled. Watching them, she admits that what she made is not the peak of existence: they are what existence aspires to be."}],
+personality:[
+{h:"Serene and detached",t:"Aeterna is calm beyond calm. Little surprises her, and she speaks as one who has seen everything begin."},
+{h:"Humbled by wonder",t:"Since meeting Eon she has grown wistful and curious, finding wonder in the very things she created."}],
+appearance:"Aeterna is described as perfection incarnate: a radiant fusion of beauty, wisdom and power, with golden eyes, floating above the Primordial Throne.\n\nIn her portraits she has very long, wavy golden hair and wears a flowing white gown edged with gold, crowned by a radiant golden halo with light streaming behind her. One portrait is a half-length view and the second shows her at full length. Swipe between them at the top of her page.",
+powersIntro:"Aeterna’s power is creation itself: she is the author of reality.",
+powers:[
+{cat:"Creation",blurb:"Authorship of everything that exists.",items:[
+P("Authorship of Reality","s","Core","She designed and wrote the laws of existence.","An innate property of the Creator.","Eon is the one thing outside her authorship.","Every world on the infinite journey exists because of her."),
+P("Omnipotence over Creation","s","Peak","Command over anything that was made.","Exercised from the Primordial Throne.","Could not move Eon.","Presided over all of existence.")]},
+{cat:"Presence",blurb:"The weight of the first being.",items:[
+P("Multiverse-Shaking Voice","e","Support","Her voice carries across every world at once.","Raised only at the climax of her contest with Eon.","Rarely used.","Her cry shook the multiverse.")]}],
+relationships:[
+{who:"eon",name:"Eon the Unlimited",kind:"The one who named her",text:"The anomaly who reached her throne and gave her a name. She has stayed at his side ever since."},
+{who:"celestia",name:"Celestia",kind:"Fellow goddess",text:"The Highest Goddess of a thousand worlds, who greeted Eon at the start of his journey and shares his household."}],
+trivia:["She had no name until Eon gave her one.","The Primordial Throne is the final threshold of the infinite journey.","She is the highest-ranked woman in the Chronicles alongside Yue Qingwu."],
+quotes:[["You are an anomaly.","On meeting Eon"],["I made existence… and yet, they are what existence aspires to be.","On Eon’s household"]]
+});
+EONC.push({
+slug:"astraea",img:"astraea",short:"Astraea",color:"#e2b84c",tags:["divine","leader","eon"],epithet:"the Goddess of Order above Seoul",
+images:[{img:"astraea",caption:"Astraea with her golden sunburst halo, in a sheer-sleeved white gown with gold embroidery, Seoul's tower glowing at night behind her."},{img:"astraea-2",caption:"Astraea with a bright, playful smile, in the same white-and-gold gown under her halo, Seoul at night behind her."}],
+name:"Astraea",fullName:"Astraea, Goddess of Order",
+tagline:"The strongest goddess of the cosmos tore Seoul’s sky open hunting a hidden Outsider. When he finally walked into her palace, she found her fate.",
+aliases:["The Goddess of Order","The Strongest Goddess of the Cosmos","The Fallen Goddess"],titles:["Ruler of the Divine Realm","Goddess of Order","Member of Eon’s household"],
+race:"Goddess",age:"An adult woman in form; an ancient goddess",height:"Tall",build:"Statuesque and radiant",
+hair:"Long, wavy golden-blonde hair",eyes:"Warm golden",
+origin:"The Divine Realm, a celestial palace above the clouds",affiliation:"Formerly the Divine Realm; now Eon’s household",role:"Former ruler of the Divine Realm; the first cosmic power to face Eon in Seoul",
+sagas:["rift"],firstSaga:"rift",status:"Alive; living in Eon’s household",
+caption:"Astraea beneath her golden halo, Seoul glowing at night behind her. Swipe or use the arrows for her second portrait.",
+tier:"t1b",stats:{off:9,def:10,spd:9,mys:10,utl:9,rea:9},
+note:"**Placement.** Astraea commands cosmic order, opens dimensional rifts at will and rules the Divine Realm. She is called the strongest goddess of the cosmos, though the Primordial Weave outranks her. She sits in **Transcendent**.",
+intro:"**Astraea** is the Goddess of Order, ruler of the Divine Realm and, by her own world’s reckoning, the strongest goddess of the cosmos. She tore rifts across the sky over [[saga:rift|Seoul]] to hunt a hidden Outsider, and when **Eon** walked into her palace, the world bent. Now she is a playful, proud member of his household.",
+bio:[
+{h:"Ruler of the Divine Realm",t:"From a celestial palace above the clouds, Astraea governed cosmic order. Her miracles could heal nations and her voice commanded storms."},
+{h:"The hunt for the Outsider",t:"Sensing something hidden in Seoul that did not belong to her order, she opened rift after rift over the city, always with the same command: “YOU CANNOT HIDE, OUTSIDER.” Eon closed every one."},
+{h:"The world bends",t:"At last Eon walked into the Divine Realm himself. Against him, the strongest goddess of the cosmos was outmatched for the first time. Her halo split into shards, and she chose to stay at his side, wearing a golden choker that glows whenever he is near."},
+{h:"A new household",t:"Astraea becomes the third member of Eon’s household, alongside Lumina and Seri. When the far older **Nyxara**, the Primordial Weave, wakes in the void, Astraea watches even the creator of the cosmos fail to touch him."}],
+personality:[
+{h:"Once proud",t:"Astraea was the one who fought fate, imperious and certain of her order."},
+{h:"Playful and durable",t:"Today she is giggly and teasing, calls herself “fate itself”, and is proud of how tough she is: “Glass is fragile. I am not.”"}],
+appearance:"Astraea has golden, softly glowing skin and a radiant halo, split into shards since her meeting with Eon. She wears a golden choker that glows when he is near, and his name runs in luminous script across her skin.\n\nIn her portraits she has long, wavy golden-blonde hair and a golden sunburst halo, and wears a white gown with sheer sleeves and gold embroidery, with the lights of Seoul and its tower behind her at night. One portrait shows her gentle look, the other her bright, playful smile. Swipe between them at the top of her page.",
+powersIntro:"Astraea’s power is divine order: law, light and the storms that obey her voice.",
+powers:[
+{cat:"Divine order",blurb:"Command over the laws that keep the cosmos in line.",items:[
+P("Command of Cosmic Order","s","Core","Governs the order of reality across her domain.","Her nature as Goddess of Order.","Eon stands outside it.","Ruled the Divine Realm unchallenged."),
+P("Dimensional Rifts","e","Peak","Tears openings between the Divine Realm and the mortal world.","Opened at will from her palace.","Eon closes them.","Repeated rifts over Seoul.")]},
+{cat:"Divinity",blurb:"Miracles and light.",items:[
+P("Miracles of Healing","s","Support","Miracles that could heal nations.","Divine power.","None noted.","Spoken of throughout the Divine Realm."),
+P("Storm-Commanding Voice","s","Support","Her voice commands storms.","Divine authority.","None noted.","Shouted down the sky over Seoul."),
+P("Halo Shards","e","Support","Her shattered halo still gives divine light, and her skin repels dirt.","Residual divinity.","Weaker than her old halo.","Used as a light source in Eon’s home.")]}],
+relationships:[
+{who:"eon",name:"Eon",kind:"The one she chose",text:"The hidden Outsider she hunted, who walked into her palace and outmatched her. She is now part of his household."},
+{who:"nyxara",name:"Nyxara",kind:"Household sister",text:"The Primordial Weave, creator of the cosmos and the only being in her world older and stronger than Astraea."},
+{who:"lumina",name:"Lumina",kind:"Household sister",text:"A former Vampire Empress who shares Eon’s household."},
+{who:"seri",name:"Seri",kind:"Household sister",text:"A fellow member of Eon’s household."}],
+trivia:["Her golden choker glows whenever Eon is near.","She is proud of being unbreakable: “Glass is fragile. I am not.”","She is a different person from the Astraea of other stories."],
+quotes:[["YOU CANNOT HIDE, OUTSIDER.","Through the rifts over Seoul"],["I used to fight fate. Now, I am fate. His fate.","After joining Eon’s household"],["Glass is fragile. I am not.","Teasing"]]
+});
+EONC.push({
+slug:"anuvel",img:"anuvel",short:"Anuvel",color:"#9aa7c9",tags:["divine","mage","eon"],epithet:"the Creator-Administrator of Terra Nova",
+images:[{img:"anuvel",caption:"Anuvel with long silver hair, in a high-collared white gown with gold detail, a starlit golden map behind her."},{img:"anuvel-2",caption:"Anuvel smiling warmly in the same white high-collared gown, the star-map glowing behind her."}],
+name:"Anuvel",fullName:"Anuvel, Goddess of Terra Nova",
+tagline:"She built a whole world of levels and stats, then met the man who rewrote it. Now the creator runs her world for him with blissful efficiency.",
+aliases:["Goddess Anuvel","The Silenced Goddess","SysAdmin of Terra Nova"],titles:["Creator of Terra Nova","System Administrator","Eon’s attendant"],
+race:"Former Celestial",age:"An adult woman in form; as old as her world",height:"Tall",build:"A divine sculpture of contained power",
+hair:"Long hair like spun starlight",eyes:"Once full of galaxies; now bright with devotion",
+origin:"Terra Nova, the world she created",affiliation:"Eon",role:"Terra Nova’s creator, now its administrator in Eon’s service",
+sagas:["terra"],firstSaga:"terra",status:"Alive; running Terra Nova for Eon",
+caption:"Anuvel in her white high-collared gown before a glowing star-map. Swipe or use the arrows for her second portrait.",
+tier:"t1b",stats:{off:8,def:9,spd:9,mys:10,utl:10,rea:10},
+note:"**Placement.** Anuvel created an entire world and still runs its weather, leylines and system. Her scale is one world rather than a multiverse, and Eon has capped her level, so she sits in **Transcendent**.",
+intro:"**Anuvel** is the goddess who created [[saga:terra|Terra Nova]], a world of levels, stats and leylines, and ruled it as its system. When **Eon** was reborn there and rewrote her world’s core, she became his administrator and attendant, and she has never been happier to follow orders.",
+bio:[
+{h:"Creator of Terra Nova",t:"Anuvel built Terra Nova, a game-like world where everyone has levels and stats, and ruled it as its living system."},
+{h:"The rewrite",t:"Eon was reborn into her world, reached its root and overwrote its core parameters. The creator found herself answering to a power above her own. Eon set every one of her stats to 99,999 and capped her level at 100, and by the Principle of Reciprocity her growth became limitless."},
+{h:"The SysAdmin",t:"While Eon lives quietly at an inn and watches the world, Anuvel runs it: adjusting weather and mana leylines, filtering anomalies and finding anyone in the datascape instantly. She delivers complete threat reports, such as the one on the elf **Lyra Silvershadow**, before Eon has finished asking."}],
+personality:[
+{h:"Devoted",t:"Anuvel treats every request from Eon as a lifeline. Her whole existence is a question waiting for his answer."},
+{h:"Blissfully efficient",t:"She runs a world in the background without complaint and takes deep pride in doing it perfectly."}],
+appearance:"Anuvel is a divine sculpture of flawless curves and contained power, with hair like spun starlight and softly luminous skin. Her eyes once held galaxies and now shine with devotion. She wears a white high collar and an outfit Eon designed for her.\n\nIn her portraits she has long silver hair and wears a white gown with a high collar and gold detail, in front of a golden star-map. One shows her calm look and one her warm smile. Swipe between them at the top of her page.",
+powersIntro:"Anuvel’s power is administration: she holds the controls of an entire world.",
+powers:[
+{cat:"World administration",blurb:"The system of Terra Nova, at her fingertips.",items:[
+P("World Creation","s","Peak","She created Terra Nova and all its rules.","Her original divine act.","One world in scale.","The whole of Terra Nova."),
+P("Weather and Leyline Control","s","Core","Adjusts climate and the flow of mana across the world.","System-level access.","Answers to Eon.","Keeps Terra Nova running every day."),
+P("Datascape Search","s","Support","Locates anything or anyone instantly.","Reads the world’s data.","None noted.","Instant threat report on Lyra Silvershadow."),
+P("Anomaly Filtering","s","Support","Catches and removes errors in reality.","Automatic background process.","None noted.","Keeps Eon’s quiet life undisturbed.")]},
+{cat:"Status",blurb:"Numbers set by Eon himself.",items:[
+P("Stats of 99,999","s","Core","Every attribute set to 99,999.","Rewritten by Eon.","Level capped at 100.","Far above any mortal legend of Terra Nova."),
+P("Principle of Reciprocity","s","Support","Her growth has no limit.","A rule Eon added to the system.","None known.","Shared with Morgantha.")]}],
+relationships:[
+{who:"eon",name:"Eon",kind:"Owner of her world",text:"The man who rewrote Terra Nova. She serves him as administrator and attendant, gladly."},
+{who:"morgantha",name:"Morgantha",kind:"Colleague",text:"The Crone of the Whispering Wood, the strongest witch of Terra Nova, who joined Eon’s circle after losing a wager."},
+{who:"lyra",name:"Lyra Silvershadow",kind:"Colleague",text:"An Adamantine-rank elf in Eon’s circle."}],
+trivia:["She calls herself Terra Nova’s SysAdmin.","Her outfit was designed by Eon.","She runs the world with only part of her attention; the rest stays on Eon."],
+quotes:[["Her entire existence is a question waiting for Eon’s command.","The story’s description of her"]]
+});
+EONC.push({
+slug:"ayaka-shiroyama",img:"ayaka-shiroyama",short:"Ayaka",color:"#7a74c9",tags:["mage","leader","eon"],epithet:"the Unlimited Administrator",
+name:"Ayaka Shiroyama",fullName:"Ayaka Shiroyama of the Shiroyama Line",
+tagline:"Eon’s wife reads reality as code, and edits it with frightening calm whenever anything threatens his peace.",
+aliases:["The Unlimited Administrator","The Goddess Who Descended","Ayaka"],titles:["Heir of the Shiroyama line","Eon’s wife","Administrator of the Shattered Celestial Peak"],
+race:"Human, ascended to divine Administrator authority",age:"An adult; married to Eon",height:"Tall and elegant",build:"Graceful, with a commanding presence",
+hair:"Very long, straight black hair",eyes:"A calm, celestial gaze",
+origin:"Modern Tokyo (the Shiroyama line)",affiliation:"Eon; the Shattered Celestial Peak",role:"Eon’s wife and partner across many worlds; the power that keeps their home in order",
+sagas:["admin"],firstSaga:"admin",status:"Alive; married to Eon",
+caption:"Ayaka Shiroyama in a flowing white gown under a full moon, a city skyline glowing behind her.",
+tier:"t2",stats:{off:9,def:9,spd:9,mys:10,utl:10,rea:9},
+note:"**Placement.** Ayaka edits reality itself with Administrator authority and outranks a world whose power stops at Level 9. She does this within one world at a time, so she sits in **Primordial**.",
+intro:"**Ayaka Shiroyama** is **Eon**’s wife, heir to the old Shiroyama line of Tokyo. When she gained divine **Administrator** authority, she began to see reality as a programmable substrate. Across [[saga:admin|several worlds]] she is the serene, systematic power that keeps their home peaceful.",
+bio:[
+{h:"The Shiroyama heir",t:"Ayaka begins as Eon’s devoted wife in modern Tokyo, of the old Shiroyama line."},
+{h:"Administrator",t:"She awakens divine Administrator authority and learns that reality runs on a programmable substrate she can read and edit. She calls Eon “Hubby” in the same calm voice she uses for world-changing commands."},
+{h:"The Shattered Celestial Peak",t:"The couple cross together into a modern cultivation world with power levels from 0 to 9. They choose the abandoned Shattered Celestial Peak, a lethal Grade-9 Heavenly Realm, as their home, and Ayaka tames it on the first day."},
+{h:"Keeping the peace",t:"She broadcasts a silence decree across the region, and ancient cultivators obey. She removes threats such as a Level 6 Flying Lightning Ape before they arrive. When an arrogant sect patriarch comes to make demands, she holds his mind in a white void with a single command line until he submits."},
+{h:"Many worlds",t:"Wherever Eon goes next, Ayaka goes too, and in each new world she declares herself a constant of its code."}],
+personality:[
+{h:"Serene and systematic",t:"Ayaka is frighteningly calm and speaks in system terms such as “recalibration required”."},
+{h:"Devoted to his peace",t:"Everything she does is for Eon’s quiet life. She treats threats to it as bugs to be fixed."}],
+appearance:"Ayaka has a celestial gaze, wears gowns of “woven moonlight” or “the light of dead stars”, and her voice carries a harmonic resonance that calms spirit plants. She carries a signature aura that marks their home as theirs.\n\nIn her portrait she has very long, straight black hair and wears a flowing white gown with long sleeves, standing among violet flowers under a full moon, with a city skyline glowing behind her.",
+powersIntro:"Ayaka’s power is Administrator authority: she treats reality as code.",
+powers:[
+{cat:"Administrator authority",blurb:"Reading and editing the substrate of reality.",items:[
+P("Reality Editing","s","Core","Reads reality as a programmable substrate and changes it.","Administrator-level authority.","One world at a time.","Tamed the Shattered Celestial Peak on the first day."),
+P("Divine Net","s","Support","Expands her consciousness across a whole region.","Administrator authority.","None noted.","Spots threats long before they arrive."),
+P("Silence Decree","e","Peak","A command broadcast across a region.","Administrator authority.","None noted.","Ancient cultivators obeyed it.")]},
+{cat:"Home and bond",blurb:"Keeping Eon’s home safe.",items:[
+P("Owner-Centered Mind","s","Peak","Holds a hostile mind in a white void.","A single command line.","Needs line of sight or the divine net.","A sect patriarch held until he submitted."),
+P("Fortress Aura","e","Support","Turns their territory into a fortress.","Her signature aura.","Local.","The Shattered Celestial Peak."),
+P("Soul-Chain Bond","s","Support","A bond linking her soul to Eon’s.","Formed between them.","Only with Eon.","Never apart across worlds."),
+P("Summoning","s","Support","Summons food and objects at will.","Administrator authority.","None noted.","Everyday life on the Peak.")]}],
+relationships:[
+{who:"eon",name:"Eon",kind:"Husband",text:"Her husband, whom she calls “Hubby”, and the centre of everything she does."}],
+trivia:["She calls Eon “Hubby”.","Her voice calms spirit plants.","Her home is an abandoned Grade-9 Heavenly Realm."],
+quotes:[["This reality operates on a programmable substrate… And my authority level is… ‘Administrator.’","Discovering her power"],["Recalibration required.","A typical verdict"]]
+});
+(function(){var order=["lirael-kanto","elizaveta","celestine-varelis","su-eon-lingwei","yeonhwa","yue-qingwu","xuanye","park-ji-yeon","hamazaki-risa","nova-astra","nakamura-hana","arisugawa-yu","saori-luminelle","aoi-sakuraba","rin-sakuraba","yuki-yukino","asuka-lyney","han-seo-yeon","aeterna","astraea","anuvel","ayaka-shiroyama"];window.EON.chars=order.map(function(s){return EONC.filter(function(c){return c.slug===s})[0]}).concat(EONC.filter(function(c){return order.indexOf(c.slug)<0}));})();
