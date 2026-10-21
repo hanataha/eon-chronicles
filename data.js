@@ -1138,7 +1138,7 @@ quotes:[["It’s a level editor! For everything!","On awakening as a witch"],["P
 });
 EONC.push({
 slug:"han-seo-yeon",img:"han-seo-yeon",short:"Seo-yeon",color:"#4f8f9a",tags:["sword","eon"],epithet:"the Mist-Step Bride of the River Clan",
-images:[{img:"han-seo-yeon",caption:"Han Seo-yeon, portrait 1: her calm, smiling look."},{img:"han-seo-yeon-2",caption:"Han Seo-yeon, portrait 2: her playful, teasing look."}],
+images:[{img:"han-seo-yeon",caption:"Han Seo-yeon smiling softly beneath cherry blossoms, in a white sheer hanfu with a sage-green sash, holding a paper parasol."},{img:"han-seo-yeon-2",caption:"Han Seo-yeon with a playful, teasing grin and her tongue out, in the same white sheer hanfu under cherry blossoms with her paper parasol."}],
 name:"Han Seo-yeon",fullName:"Han Seo-yeon of the Han River Clan",
 tagline:"Betrothed to Eon as a child by a clan alliance, she grew up with him across a secret thread of qi, and she became the strongest woman in the martial world so that no road could part them.",
 aliases:["Seo-yeon","The Young Miss","The Mist-Step Prodigy","The River Goddess"],titles:["Eldest Daughter of the Han Clan","Eon’s wife","Mistress of the Heavenly Garden","True Immortal"],
@@ -1146,7 +1146,7 @@ race:"Human; later a true immortal",age:"An adult; married at eighteen, and agel
 hair:"Long, straight black hair, tied high for training",eyes:"Dark, calm eyes that brighten whenever Eon is near",
 origin:"The Han clan river holdings on the Cheonggang, in a murim world",affiliation:"The Han clan by birth; the Baek clan of Mount Cheongryong by marriage",role:"Eon’s childhood fiancée, then his wife; the strongest martial artist of her world",
 sagas:["river"],firstSaga:"river",status:"Alive; married to Eon, immortal and devoted",
-caption:"Han Seo-yeon, portrait 1 of 2. Swipe or use the arrows to see her second portrait.",
+caption:"Han Seo-yeon in a white sheer hanfu under falling cherry blossoms, holding a paper parasol. Swipe or use the arrows for her second portrait.",
 tier:"t2",stats:{off:9,def:9,spd:9,mys:9,utl:9,rea:8},
 note:"**Placement.** Seo-yeon rises from master realm to **transcendent**, unbeatable by anyone in her world except Eon, and then becomes a **true immortal** who builds a private world with its own flow of time. She doesn’t cross between worlds or rewrite cosmic law, so she sits in **Primordial**.",
 intro:"**Han Seo-yeon** is the eldest daughter of the Han river clan, betrothed by alliance to **Eon**, the reborn first son of the Baek clan, when they were small children. Through a secret thread of qi he gave her, she grew from a quiet, over-drilled girl into his closest confidante. As an adult she married him at eighteen and went on to become the strongest woman of her martial world, and finally an immortal at his side.",
@@ -1161,7 +1161,7 @@ personality:[
 {h:"Composed and precise",t:"To most people Seo-yeon is cool, exact and self-possessed: a clan daughter who measures her words."},
 {h:"Devoted to one person",t:"With Eon she is open, warm and quietly funny. Her devotion runs deep and is unashamedly possessive. She wants his attention, his company and his voice, and sees no reason to hide it."},
 {h:"Fierce when crossed",t:"She is icy and commanding with anyone who threatens her marriage, whether elders, suitors or rivals, and her warnings are never idle."}],
-appearance:"Seo-yeon is petite and graceful, with long, straight black hair that she ties high for training and dark eyes that brighten whenever Eon is near. Han clan colours are pale grey-green and river-grey with a wave pattern. She keeps the gifts he gave her: a black-wood hairpin with a hidden silver edge, a black ribbon with a date woven into it, and a river-grey silk cord with a wave clasp.\n\nShe has two portraits, a calm smiling one and a playful teasing one. Swipe between them at the top of her page.",
+appearance:"Seo-yeon is petite and graceful, with long, straight black hair that she ties high for training and dark eyes that brighten whenever Eon is near. Han clan colours are pale grey-green and river-grey with a wave pattern. She keeps the gifts he gave her: a black-wood hairpin with a hidden silver edge, a black ribbon with a date woven into it, and a river-grey silk cord with a wave clasp.\n\nIn her portraits she stands under falling cherry blossoms in a white sheer hanfu with a high collar, a sage-green sash and silver chains, holding a white paper parasol, with a small red mark on her brow. One shows her calm, smiling look and one her playful, teasing grin. Swipe between them at the top of her page.",
 powersIntro:"Seo-yeon’s strength is Han clan mist-step martial arts, refined by Eon’s hidden teaching until it surpasses its origins, and finally carried past mortality.",
 powers:[
 {cat:"Martial arts",blurb:"The Han clan’s river tradition, made her own.",items:[
