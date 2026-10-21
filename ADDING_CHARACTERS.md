@@ -84,3 +84,9 @@ grep -ciE "<explicit-word-list>" data.js   # must be 0
 
 Open the new character's page, a chronicle page, Power Ranking and a search for the name, and look for console errors.
 Then commit and push to `main`. GitHub Pages redeploys in about a minute.
+
+## Multiple portraits (swipe gallery)
+
+Optional: add `images:[{img:"<slug>",caption:"…"},{img:"<slug>-2",caption:"…"}]` to a character. Each `img` needs its own
+`.jpg` + `-thumb.jpg`. The infobox then becomes a swipeable slider (touch swipe, arrows, dots, arrow keys), and the Gallery
+lists every image. Characters without `images` keep the single `img` portrait. Example: `han-seo-yeon`.

@@ -38,6 +38,21 @@ function avg(c){var v=0,n=0;for(var k in c.stats){v+=c.stats[k];n++}return Math.
 function nPowers(c){var n=0;c.powers.forEach(function(g){n+=g.items.length});return n}
 function sagaTags(ids){return ids.map(function(i){return SG[i]?'<a class="pill g" href="#/saga/'+i+'">'+esc(SG[i].title)+'</a>':''}).join('')}
 function img(c,sz){return 'images/characters/'+c.img+(sz==='t'?'-thumb':'')+'.jpg'}
+function pics(c){var L=(c.images&&c.images.length)?c.images:[{img:c.img,caption:c.caption}];return L.map(function(x){return {src:'images/characters/'+x.img+'.jpg',th:'images/characters/'+x.img+'-thumb.jpg',cap:x.caption||c.caption}})}
+function ibPics(c){var P=pics(c);if(P.length<2)return '<div class="ib-img" data-lb="'+P[0].src+'" data-cap="'+esc(c.name)+'"><img src="'+P[0].src+'" alt="Portrait of '+esc(c.name)+'"></div>';
+  var h='<div class="ib-img ib-slider" data-i="0" aria-roledescription="carousel" aria-label="Portraits of '+esc(c.name)+'"><div class="ib-track">';
+  P.forEach(function(p,i){h+='<div class="ib-slide" data-lb="'+p.src+'" data-cap="'+esc(p.cap)+'"><img src="'+p.src+'" alt="Portrait '+(i+1)+' of '+P.length+': '+esc(c.name)+'" draggable="false"'+(i?' loading="lazy"':'')+'></div>'});
+  h+='</div><button class="ib-nav prev" type="button" aria-label="Previous portrait">‹</button><button class="ib-nav next" type="button" aria-label="Next portrait">›</button><div class="ib-dots">';
+  P.forEach(function(p,i){h+='<button type="button" class="ib-dot'+(i?'':' on')+'" data-go="'+i+'" aria-label="Portrait '+(i+1)+'"></button>'});
+  return h+'</div></div>'}
+function slideTo(s,i){var n=s.querySelectorAll('.ib-slide').length;i=(i+n)%n;s.dataset.i=i;s.querySelector('.ib-track').style.transform='translateX('+(-100*i)+'%)';[].forEach.call(s.querySelectorAll('.ib-dot'),function(d,k){d.classList.toggle('on',k===i)})}
+(function(){var S=null,x0=0,y0=0,dx=0,moved=false;
+document.addEventListener('touchstart',function(e){var s=e.target.closest('.ib-slider');if(!s||e.target.closest('.ib-nav,.ib-dot'))return;S=s;x0=e.touches[0].clientX;y0=e.touches[0].clientY;dx=0;moved=false},{passive:true});
+document.addEventListener('touchmove',function(e){if(!S)return;dx=e.touches[0].clientX-x0;var dy=e.touches[0].clientY-y0;if(!moved&&Math.abs(dx)>10&&Math.abs(dx)>Math.abs(dy))moved=true;if(moved){var i=+S.dataset.i;S.querySelector('.ib-track').style.transition='none';S.querySelector('.ib-track').style.transform='translateX(calc('+(-100*i)+'% + '+dx+'px))'}},{passive:true});
+document.addEventListener('touchend',function(){if(!S)return;var s=S;S=null;s.querySelector('.ib-track').style.transition='';if(moved){s.dataset.sw='1';setTimeout(function(){delete s.dataset.sw},350);slideTo(s,+s.dataset.i+(dx<-40?1:dx>40?-1:0))}});
+document.addEventListener('click',function(e){var s=e.target.closest('.ib-slider');if(!s)return;var b=e.target.closest('.ib-nav,.ib-dot');if(b){e.stopPropagation();e.preventDefault();slideTo(s,b.dataset.go!=null?+b.dataset.go:+s.dataset.i+(b.classList.contains('next')?1:-1));return}if(s.dataset.sw){e.stopPropagation();e.preventDefault()}},true);
+document.addEventListener('keydown',function(e){var s=document.activeElement&&document.activeElement.closest&&document.activeElement.closest('.ib-slider');if(s&&(e.key==='ArrowRight'||e.key==='ArrowLeft'))slideTo(s,+s.dataset.i+(e.key==='ArrowRight'?1:-1))});
+})();
 
 /* ---------- views ---------- */
 function card(c){
@@ -79,7 +94,7 @@ function rankRow(c,n){
 }
 function infobox(c){
   var rows=[['Full name',c.fullName],['Aliases',c.aliases.join(' · ')],['Titles',c.titles.join(' · ')],['Species / race',c.race],['Age',c.age],['Height / build',c.height+' · '+c.build],['Hair',c.hair],['Eyes',c.eyes],['Origin',c.origin],['Affiliation',c.affiliation],['Role / rank',c.role],['Status',c.status]];
-  var h='<aside class="infobox" aria-label="Infobox"><div class="ib-t">'+esc(c.name)+'</div><div class="ib-img" data-lb="'+img(c)+'" data-cap="'+esc(c.name)+'"><img src="'+img(c)+'" alt="Portrait of '+esc(c.name)+'"></div><div class="ib-cap">'+esc(c.caption)+'</div>';
+  var h='<aside class="infobox" aria-label="Infobox"><div class="ib-t">'+esc(c.name)+'</div>'+ibPics(c)+'<div class="ib-cap">'+esc(c.caption)+'</div>';
   h+='<div class="ib-sec">Profile</div>'+rows.map(function(r){return '<dl class="ib-row"><dt>'+r[0]+'</dt><dd>'+esc(r[1])+'</dd></dl>'}).join('');
   h+='<div class="ib-sec">Story</div><dl class="ib-row"><dt>Chronicles</dt><dd>'+c.sagas.map(function(i){return '<a href="#/saga/'+i+'">'+esc(SG[i].title)+'</a>'}).join('<br>')+'</dd></dl><dl class="ib-row"><dt>First appears</dt><dd><a href="#/saga/'+c.firstSaga+'">'+esc(SG[c.firstSaga].title)+'</a></dd></dl>';
   h+='<div class="ib-sec">Power</div><dl class="ib-row"><dt>Tier</dt><dd><b style="color:var(--accent)">'+esc(tierOf(c).name)+'</b> ('+avg(c).toFixed(1)+'/10)</dd></dl><dl class="ib-row"><dt>Named powers</dt><dd>'+nPowers(c)+'</dd></dl>';
@@ -111,7 +126,7 @@ function vChar(slug){
     var o=BY[r.who];
     return '<div class="rel">'+(o?'<a href="#/c/'+o.slug+'"><img src="'+img(o,'t')+'" alt=""></a>':'<div class="av">'+esc((r.name||r.who).charAt(0))+'</div>')+'<div><span class="k">'+esc(r.kind)+'</span><br><b>'+(o?'<a href="#/c/'+o.slug+'">'+esc(o.short)+'</a>':esc(r.name||r.who))+'</b><p>'+inline(r.text)+'</p></div></div>'}).join('')+'</div></section>';
   h+='<section id="trivia"><h2>Trivia &amp; Quotes</h2>'+c.quotes.map(function(q){return '<blockquote class="quote">“'+esc(q[0])+'”<cite>'+esc(q[1])+'</cite></blockquote>'}).join('')+'<ul class="tight" style="margin-top:14px">'+c.trivia.map(function(t){return '<li>'+inline(t)+'</li>'}).join('')+'</ul></section>';
-  h+='<section id="gallery"><h2>Gallery</h2><div class="gal"><figure data-lb="'+img(c)+'" data-cap="'+esc(c.caption)+'"><img loading="lazy" src="'+img(c,'t')+'" alt="Portrait of '+esc(c.name)+'"><figcaption>'+esc(c.caption)+'</figcaption></figure></div></section>';
+  h+='<section id="gallery"><h2>Gallery</h2><div class="gal">'+pics(c).map(function(p){return '<figure data-lb="'+p.src+'" data-cap="'+esc(p.cap)+'"><img loading="lazy" src="'+p.th+'" alt="Portrait of '+esc(c.name)+'"><figcaption>'+esc(p.cap)+'</figcaption></figure>'}).join('')+'</div></section>';
   h+='<section id="compare"><h2>Power comparison</h2>'+rankingTable(c.slug)+'<p class="small muted" style="margin-top:8px"><a href="#/ranking">Open the full ranking →</a></p></section>';
   h+='<div class="pn-nav"><a class="btn alt" href="#/c/'+prev.slug+'">← '+esc(prev.short)+'</a><a class="btn alt" href="#/c/'+next.slug+'">'+esc(next.short)+' →</a></div></div>';
   main.innerHTML=h;document.title=c.name+' – The Eon Chronicles';
