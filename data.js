@@ -88,6 +88,10 @@ sagas:[
  blurb:"Eon the Unlimited walks from world to world, past goddesses and immortal empresses, until he reaches the throne at the origin of everything, and gives its nameless occupant a name.",
  summary:"**Eon the Unlimited** sets out on an infinite journey across a thousand worlds. He is greeted by **Celestia**, Highest Goddess of those worlds, and passes through the Supreme Immortal Realm, the Jade Phoenix Sect and the Elven Realms. At the very end of the road stands the **Primordial Throne**, and on it the Creator: a being so complete she never needed a name, because she was everything. She meets him with serene detachment and calls him an anomaly. Eon outmatches her, gives her the name **Aeterna**, and the Creator joins the household of the one being she did not create.",
  beats:["Eon the Unlimited sets out across a thousand worlds.","Celestia fills the sky to greet him.","The Supreme Immortal Realm, the Jade Phoenix Sect, the Elven Realms.","The last threshold: the Primordial Throne.","‘You are an anomaly.’","A cry that shakes the multiverse.","The nameless Creator is given a name: Aeterna.","‘I made existence… and yet, they are what existence aspires to be.’"]}
+,{id:"kurogane",num:"XX",title:"The Kurogane Heir",world:"Modern Tokyo",chars:["kisaragi-mei"],
+ blurb:"Eon is reborn as the first son of a 140-year-old Japanese conglomerate. He grows up hiding an old mind, and after university meets the aide who chooses to stay with him for life.",
+ summary:"**Eon** is born as the first son of the **Kurogane Group**, a Meiji-era conglomerate spanning steel, energy, finance and technology, and grows up on the family estate in Meguro, quietly hiding the memories of his earlier lives through school. After he finishes university, the **Kisaragi** retainer family assigns their daughter **Kisaragi Mei**, an adult of 24, as his personal attendant and chief aide. They meet for the first time, and Mei comes to love him and chooses him for life. Eon later reveals his true nature and grants her power of her own, until she shapes a private world around him.",
+ beats:["Born the first son of the Kurogane Group in Tokyo.","An old mind hidden behind an ordinary childhood.","School years with a loyal circle of friends.","After university, Kisaragi Mei is assigned as his aide.","Mei chooses him, of her own will.","A black choker as a gift.","Eon reveals his true nature.","Many bodies, one mind: Mei’s private world."]}
 ],
 places:[
 {id:"willow-bend",name:"Willow Bend Village",region:"Murim",type:"Village",chars:["yeonhwa"],sagas:["moon"],desc:"A small farming village on a slow river where Eon grew up as an orphan, looked after by Granny Wei and Old Man Jian. When bandits raid the village, it is here that Yeonhwa first appears out of the dusk.\n\nThe village is told that Eon left or fell, and it keeps its quiet life afterwards; he returns in later years to see it again."},
@@ -1353,4 +1357,41 @@ relationships:[
 trivia:["She calls Eon “Hubby”.","Her voice calms spirit plants.","Her home is an abandoned Grade-9 Heavenly Realm."],
 quotes:[["This reality operates on a programmable substrate… And my authority level is… ‘Administrator.’","Discovering her power"],["Recalibration required.","A typical verdict"]]
 });
-(function(){var order=["lirael-kanto","elizaveta","celestine-varelis","su-eon-lingwei","yeonhwa","yue-qingwu","xuanye","park-ji-yeon","hamazaki-risa","nova-astra","nakamura-hana","arisugawa-yu","saori-luminelle","aoi-sakuraba","rin-sakuraba","yuki-yukino","asuka-lyney","han-seo-yeon","aeterna","astraea","anuvel","ayaka-shiroyama"];window.EON.chars=order.map(function(s){return EONC.filter(function(c){return c.slug===s})[0]}).concat(EONC.filter(function(c){return order.indexOf(c.slug)<0}));})();
+EONC.push({
+slug:"kisaragi-mei",img:"kisaragi-mei",short:"Mei",color:"#8a6a3a",tags:["modern","eon"],epithet:"Chief Aide of the Kurogane Heir",
+images:[{img:"kisaragi-mei",caption:"Mei in a sheer black robe with gold lace and gold bracelets, long black hair loose, a black choker at her throat, in a lantern-lit hall."},{img:"kisaragi-mei-2",caption:"A second portrait of Mei in the same lantern-lit hall, arms raised, after Eon remade her form at her request."}],
+name:"Kisaragi Mei",fullName:"Kisaragi Mei",
+tagline:"Assigned to the Kurogane heir as an aide, she chose for herself to stay at his side for life.",
+aliases:["Mei"],titles:["Personal Attendant and Chief Aide to Eon","Daughter of the Kisaragi retainer family","Member of Eon’s household"],
+race:"Human, later raised to goddess-level power",age:"Adult; 24–25 when she first meets Eon",height:"Tall and slender",build:"Elegant and composed",
+hair:"Very long, straight black hair",eyes:"Dark brown",
+origin:"Tokyo, Japan",affiliation:"Kurogane Group; Kisaragi family",role:"Eon’s chief aide, partner and closest companion",
+sagas:["kurogane"],firstSaga:"kurogane",status:"Alive; at Eon’s side",
+caption:"Kisaragi Mei, Eon’s chief aide. Swipe or use the arrows for her second portrait.",
+tier:"t3",stats:{off:7,def:7,spd:8,mys:9,utl:10,rea:8},
+note:"**Placement.** Mei begins as a mortal aide, but the powers Eon grants her reach toward control of time, space, creation and destruction, which she is still growing into.",
+intro:"**Kisaragi Mei** is an adult woman from the **Kisaragi** family, retainers of the Kurogane Group for four generations. When **Eon** finishes university, she is assigned to him as personal attendant and chief aide, and they meet for the first time. In [[saga:kurogane|the Kurogane saga]] she chooses, of her own will, to stay at his side for life.",
+bio:[
+{h:"The assignment",t:"After Eon graduates from university, the Kisaragi family assigns Mei, then 24 or 25, as his personal attendant and chief aide. She has never met him before. Capable and composed, she soon runs his household and schedule better than anyone."},
+{h:"Her choice",t:"Working beside him, Mei comes to respect and then love him. One night she tells him plainly that she has decided to devote herself to him for life, as her own choice. He makes sure she means it, and they become partners."},
+{h:"The collar",t:"Eon gives her a black choker as a gift, and she renews her pledge happily. He tells her he wants the whole woman, not just an aide, and she grows livelier and more herself because of it."},
+{h:"Revelation",t:"Months later Eon reveals his true nature. At her request he reshapes her appearance to her liking and grants her powers, from instant changes of clothing to creation itself."},
+{h:"Her own world",t:"Mei’s chosen signature is to split into many bodies sharing one mind. In a private domain of her own making, she shapes everything around Eon herself, while among people she keeps a single form."}],
+personality:[
+{h:"Composed and capable",t:"Mei is calm, precise and tireless, the kind of aide who has solved a problem before anyone notices it."},
+{h:"Devoted by choice",t:"Her loyalty is something she decided for herself as an adult, and she says so openly."}],
+appearance:"Mei is tall and slender, with very long straight black hair and dark eyes, and wears a black choker that Eon gave her.\n\nIn her portraits she wears a sheer black robe with gold lace and gold bracelets and earrings, in a lantern-lit hall. Swipe between the two portraits at the top of her page.",
+powersIntro:"Mei’s powers were granted by Eon at her request and are still growing.",
+powers:[
+{cat:"Granted gifts",blurb:"Everyday conveniences from Eon.",items:[
+P("Instant Wardrobe","e","Utility","She changes clothing in an instant.","Granted by Eon.","None noted.","Lets her move between home and public life seamlessly."),
+P("Creation for His Sake","s","Core","She can create things for Eon.","Granted by Eon.","Still growing into it.","She shapes her private domain around him.")]},
+{cat:"Goddess-level",blurb:"Power she must still grow into.",items:[
+P("Many Bodies, One Mind","s","Signature","She splits into as many bodies as she likes, all one mind.","Her own chosen power.","Keeps one form among people.","Runs a whole household by herself."),
+P("Dominion over Time and Space","s","Peak","Control of time, space, creation and destruction.","Granted by Eon.","Not yet fully mastered.","The furthest reach of her power.")]}],
+relationships:[
+{who:"eon",name:"Eon",kind:"Her chosen partner",text:"The Kurogane heir she was assigned to as an adult, and the man she chose to stay with for life."}],
+trivia:["The Kisaragi family has served the Kurogane for four generations.","She first meets Eon after he finishes university.","Her black choker was a gift from Eon."],
+quotes:[["I choose this. Not because I was told to.","On her pledge to Eon"]]
+});
+(function(){var order=["lirael-kanto","elizaveta","celestine-varelis","su-eon-lingwei","yeonhwa","yue-qingwu","xuanye","park-ji-yeon","hamazaki-risa","nova-astra","nakamura-hana","arisugawa-yu","saori-luminelle","aoi-sakuraba","rin-sakuraba","yuki-yukino","asuka-lyney","han-seo-yeon","aeterna","astraea","anuvel","ayaka-shiroyama","kisaragi-mei"];window.EON.chars=order.map(function(s){return EONC.filter(function(c){return c.slug===s})[0]}).concat(EONC.filter(function(c){return order.indexOf(c.slug)<0}));})();
