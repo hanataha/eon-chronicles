@@ -1359,7 +1359,7 @@ quotes:[["This reality operates on a programmable substrate… And my authority 
 });
 EONC.push({
 slug:"kisaragi-mei",img:"kisaragi-mei",short:"Mei",color:"#8a6a3a",tags:["modern","eon"],epithet:"Chief Aide of the Kurogane Heir",
-images:[{img:"kisaragi-mei",caption:"Mei in a sheer black robe with gold lace and gold bracelets, long black hair loose, a black choker at her throat, in a lantern-lit hall."},{img:"kisaragi-mei-2",caption:"A second portrait of Mei in the same lantern-lit hall, arms raised, after Eon remade her form at her request."}],
+images:[{img:"kisaragi-mei",caption:"Mei in a sheer black robe with gold lace and gold bracelets, long black hair loose, a black choker at her throat, in a lantern-lit hall."},{img:"kisaragi-mei-2",caption:"A second portrait of Mei in the same lantern-lit hall, arms raised, after Eon remade her form at her request."},{img:"kisaragi-mei-3",caption:"Mei with her black hair in a bun, holding a pair of katanas."},{img:"kisaragi-mei-4",caption:"Mei with long black hair loose and a collar at her throat."}],
 name:"Kisaragi Mei",fullName:"Kisaragi Mei",
 tagline:"Assigned to the Kurogane heir as an aide, she chose for herself to stay at his side for life.",
 aliases:["Mei"],titles:["Personal Attendant and Chief Aide to Eon","Daughter of the Kisaragi retainer family","Member of Eon’s household"],
