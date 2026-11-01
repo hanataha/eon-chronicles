@@ -1361,16 +1361,16 @@ EONC.push({
 slug:"kisaragi-mei",img:"kisaragi-mei",short:"Mei",color:"#8a6a3a",tags:["modern","eon"],epithet:"Chief Aide of the Kurogane Heir",
 images:[{img:"kisaragi-mei",caption:"Mei in a sheer black robe with gold lace and gold bracelets, long black hair loose, a black choker at her throat, in a lantern-lit hall."},{img:"kisaragi-mei-2",caption:"A second portrait of Mei in the same lantern-lit hall, arms raised, after Eon remade her form at her request."},{img:"kisaragi-mei-3",caption:"Mei with her black hair in a bun, holding a pair of katanas."},{img:"kisaragi-mei-4",caption:"Mei with long black hair loose and a collar at her throat."}],
 name:"Kisaragi Mei",fullName:"Kisaragi Mei",
-tagline:"Assigned to the Kurogane heir as an aide, she chose for herself to stay at his side for life.",
+tagline:"Assigned to the Kurogane heir as an adult aide, she chose him for life and grew past infinity at his side.",
 aliases:["Mei"],titles:["Personal Attendant and Chief Aide to Eon","Daughter of the Kisaragi retainer family","Member of Eon’s household"],
-race:"Human, later raised to goddess-level power",age:"Adult; 24–25 when she first meets Eon",height:"Tall and slender",build:"Elegant and composed",
-hair:"Very long, straight black hair; later a white baseline, with silver, blonde, auburn and purple variations",eyes:"Dark brown; variations in gold, blue, amber and violet",
+race:"Former human; now a single consciousness across countless bodies, beyond infinity",age:"Adult; 24–25 when she first meets Eon, since lived through subjective millennia in her domain",height:"Tall and slender",build:"Elegant and composed",
+hair:"Baseline: very long, straight white hair (originally black), with silver, blonde, auburn and purple variations",eyes:"Originally dark brown; variations in gold, blue, amber and violet",
 origin:"Tokyo, Japan",affiliation:"Kurogane Group; Kisaragi family",role:"Eon’s chief aide, partner and closest companion",
-sagas:["kurogane"],firstSaga:"kurogane",status:"Alive; at Eon’s side",
+sagas:["kurogane"],firstSaga:"kurogane",status:"Beyond infinity; at Eon’s side by her own choice",
 caption:"Kisaragi Mei, Eon’s chief aide. Swipe or use the arrows for more portraits.",
-tier:"t3",stats:{off:7,def:7,spd:8,mys:9,utl:10,rea:8},
-note:"**Placement.** Mei begins as a mortal aide, but the powers Eon grants her reach toward control of time, space, creation and destruction, which she is still growing into.",
-intro:"**Kisaragi Mei** is an adult woman from the **Kisaragi** family, retainers of the Kurogane Group for four generations. When **Eon** finishes university, she is assigned to him as personal attendant and chief aide, and they meet for the first time. In [[saga:kurogane|the Kurogane saga]] she chooses, of her own will, to stay at his side for life.",
+tier:"t1",stats:{off:10,def:10,spd:10,mys:10,utl:10,rea:10},
+note:"**Placement.** Over subjective millennia in her time-dilated domain, Mei grew past creation and erasure of worlds, past the concept of power, and past infinity, even before her many bodies are counted. Nothing can reach her except Eon, which is how she wants it.",
+intro:"**Kisaragi Mei** is an adult woman who first met **Eon** when she was assigned to him as personal attendant and chief aide after he finished university. In [[saga:kurogane|the Kurogane saga]] she chooses, of her own will, to stay at his side for life. Empowered by him at her request, she becomes one mind across countless bodies and lives subjective millennia in a domain of her own making, growing beyond infinity. She settles on a long white-haired look, and finally rewrites her own origin around their life together.",
 bio:[
 {h:"The assignment",t:"After Eon graduates from university, the Kisaragi family assigns Mei, then 24 or 25, as his personal attendant and chief aide. She has never met him before. Capable and composed, she soon runs his household and schedule better than anyone."},
 {h:"Her choice",t:"Working beside him, Mei comes to respect and then love him. One night she tells him plainly that she has decided to devote herself to him for life, as her own choice. He makes sure she means it, and they become partners."},
@@ -1383,18 +1383,22 @@ bio:[
 personality:[
 {h:"Composed and capable",t:"Mei is calm, precise and tireless, the kind of aide who has solved a problem before anyone notices it."},
 {h:"Devoted by choice",t:"Her loyalty is something she decided for herself as an adult, and she says so openly."}],
-appearance:"Mei is tall and slender, with very long straight black hair and dark eyes, and wears a black choker that Eon gave her.\n\nIn her portraits she wears a sheer black robe with gold lace and gold bracelets and earrings, in a lantern-lit hall. Swipe between her four portraits at the top of her page.",
-powersIntro:"Mei’s powers were granted by Eon at her request and are still growing.",
+appearance:"Mei is tall and slender. Her settled baseline, the form she wears in public, has very long straight white hair and the black choker Eon gave her. Originally she had black hair and dark brown eyes.\n\nBecause all her bodies share one mind, she can vary any of them at will: silver, platinum, blonde, auburn or purple hair, gold, blue, amber or violet eyes, and small changes of style and features. Each one is still recognizably her. Swipe between her four portraits at the top of her page.",
+powersIntro:"Mei’s powers began as gifts from Eon, given at her request. Over millennia in her domain they grew beyond infinity.",
 powers:[
 {cat:"Granted gifts",blurb:"Everyday conveniences from Eon.",items:[
 P("Instant Wardrobe","e","Utility","She changes clothing in an instant.","Granted by Eon.","None noted.","Lets her move between home and public life seamlessly."),
-P("Creation for His Sake","s","Core","She can create things for Eon.","Granted by Eon.","Still growing into it.","She shapes her private domain around him.")]},
-{cat:"Goddess-level",blurb:"Power she must still grow into.",items:[
-P("Many Bodies, One Mind","s","Signature","She splits into as many bodies as she likes, all one mind.","Her own chosen power.","Keeps one form among people.","Runs a whole household by herself."),
-P("Dominion over Time and Space","s","Peak","Control of time, space, creation and destruction.","Granted by Eon.","Not yet fully mastered.","The furthest reach of her power.")]}],
+P("Creation for His Sake","s","Core","She creates whatever Eon needs, including a whole world.","Granted by Eon.","None remaining.","She shaped her private domain around him.")]},
+{cat:"One mind, many bodies",blurb:"Her chosen signature power.",items:[
+P("Many Bodies, One Mind","s","Signature","She splits into as many bodies as she likes, all one consciousness that perceives everything at once.","Her own chosen power.","She keeps one form among people.","She can see, care for and attend to Eon from every angle at once, refining each moment."),
+P("Variations","e","Signature","Any body can take a different hair colour, eye colour, style or feature while staying her.","Her own idea.","None.","She offers Eon her every look, and settled on a white-haired baseline.")]},
+{cat:"Beyond infinity",blurb:"Power past the concept of power.",items:[
+P("Time Domain","s","Peak","Inside her domain one millennium passes for every millisecond outside.","Her own working, with Eon’s agreement.","Only within her domain.","Gave her subjective millennia to grow."),
+P("Beyond Infinity","s","Peak","She outgrew creation and erasure, the concept of power, and infinity itself, even before her many bodies are counted.","Millennia of growth.","Only Eon can still reach her, by her own wish.","Nothing else in existence can touch her."),
+P("Akashic Rewriting","s","Peak","She can rewrite fate, past and future, including her own record.","Beyond-infinity scale.","She used it only on herself.","She rewrote her origin to begin as an adult on the day she met Eon.")]}],
 relationships:[
-{who:"eon",name:"Eon",kind:"Her chosen partner",text:"The Kurogane heir she was assigned to as an adult, and the man she chose to stay with for life."}],
-trivia:["Her settled baseline look is long white hair with her black choker.","The Kisaragi family has served the Kurogane for four generations.","She first meets Eon after he finishes university.","Her black choker was a gift from Eon."],
+{who:"eon",name:"Eon",kind:"Her chosen partner",text:"The Kurogane heir she was assigned to as an adult, and the man she chose for life. He is the only being who can still reach her. He knew she would rewrite her origin around him and came to meet her anyway, so she renewed her vow."}],
+trivia:["Her settled baseline look is long white hair with her black choker.","The Kisaragi family has served the Kurogane for four generations.","She first meets Eon after he finishes university.","In her domain a millennium inside passes in a millisecond outside.","Her black choker was a gift from Eon."],
 quotes:[["I choose this. Not because I was told to.","On her pledge to Eon"]]
 });
 (function(){var order=["lirael-kanto","elizaveta","celestine-varelis","su-eon-lingwei","yeonhwa","yue-qingwu","xuanye","park-ji-yeon","hamazaki-risa","nova-astra","nakamura-hana","arisugawa-yu","saori-luminelle","aoi-sakuraba","rin-sakuraba","yuki-yukino","asuka-lyney","han-seo-yeon","aeterna","astraea","anuvel","ayaka-shiroyama","kisaragi-mei"];window.EON.chars=order.map(function(s){return EONC.filter(function(c){return c.slug===s})[0]}).concat(EONC.filter(function(c){return order.indexOf(c.slug)<0}));})();
