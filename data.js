@@ -1367,7 +1367,7 @@ race:"Human, later raised to goddess-level power",age:"Adult; 24–25 when she f
 hair:"Very long, straight black hair; later a white baseline, with silver, blonde, auburn and purple variations",eyes:"Dark brown; variations in gold, blue, amber and violet",
 origin:"Tokyo, Japan",affiliation:"Kurogane Group; Kisaragi family",role:"Eon’s chief aide, partner and closest companion",
 sagas:["kurogane"],firstSaga:"kurogane",status:"Alive; at Eon’s side",
-caption:"Kisaragi Mei, Eon’s chief aide. Swipe or use the arrows for her second portrait.",
+caption:"Kisaragi Mei, Eon’s chief aide. Swipe or use the arrows for more portraits.",
 tier:"t3",stats:{off:7,def:7,spd:8,mys:9,utl:10,rea:8},
 note:"**Placement.** Mei begins as a mortal aide, but the powers Eon grants her reach toward control of time, space, creation and destruction, which she is still growing into.",
 intro:"**Kisaragi Mei** is an adult woman from the **Kisaragi** family, retainers of the Kurogane Group for four generations. When **Eon** finishes university, she is assigned to him as personal attendant and chief aide, and they meet for the first time. In [[saga:kurogane|the Kurogane saga]] she chooses, of her own will, to stay at his side for life.",
@@ -1383,7 +1383,7 @@ bio:[
 personality:[
 {h:"Composed and capable",t:"Mei is calm, precise and tireless, the kind of aide who has solved a problem before anyone notices it."},
 {h:"Devoted by choice",t:"Her loyalty is something she decided for herself as an adult, and she says so openly."}],
-appearance:"Mei is tall and slender, with very long straight black hair and dark eyes, and wears a black choker that Eon gave her.\n\nIn her portraits she wears a sheer black robe with gold lace and gold bracelets and earrings, in a lantern-lit hall. Swipe between the two portraits at the top of her page.",
+appearance:"Mei is tall and slender, with very long straight black hair and dark eyes, and wears a black choker that Eon gave her.\n\nIn her portraits she wears a sheer black robe with gold lace and gold bracelets and earrings, in a lantern-lit hall. Swipe between her four portraits at the top of her page.",
 powersIntro:"Mei’s powers were granted by Eon at her request and are still growing.",
 powers:[
 {cat:"Granted gifts",blurb:"Everyday conveniences from Eon.",items:[
